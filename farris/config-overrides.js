@@ -10,7 +10,7 @@ const sourceMapConfig = config => {
 
 //配置打包输入位置
 const outputConfig = config => {
-    config.output.path = path.resolve(__dirname, "../");
+    // config.output.path = path.resolve(__dirname, "../");
     return config;
 }
 module.exports = override(
