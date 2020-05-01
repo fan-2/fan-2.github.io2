@@ -14,7 +14,7 @@ const outputConfig = config => {
     return config;
 }
 module.exports = override(
-    outputConfig,
+    // outputConfig,
     sourceMapConfig,
     fixBabelImports('import', {
         libraryName: 'antd',
